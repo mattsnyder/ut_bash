@@ -3,3 +3,5 @@
 !.gitconfig
 !.bash_profile
 !.bashrc
+!bin/
+!bin/*

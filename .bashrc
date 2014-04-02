@@ -32,3 +32,10 @@ alias gd='git diff'
 alias go='git checkout '
 alias hist='git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short'
 
+alias gbc='git branch-create'
+alias gbd='git branch-delete'
+
+MYSQL=/usr/local/lib/
+export PATH=$PATH:$MYSQL
+export DYLD_LIBRARY_PATH=/usr/local/mysql/lib:$DYLD_LIBRARY_PATH
+
